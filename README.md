@@ -12,30 +12,21 @@ Our BabySearchSuggestionSystem is inspired by the portrayed idea above, thus, It
 
 **Exact form of how inputs are entered in the program:**
 
-5
-
-maratonaicpc
-
-marathon
-
-programacao
-
-progress inputs
-
-3
-
-marat
-
-programacao
-
-outputs
+    5
+    maratonaicpc
+    marathon
+    programacao
+    progress inputs
+    inputs
+    3
+    marat
+    programacao
+    outputs
 
 
 
 **Exact form of its output:**
 
-2 12
-
-1 11
-
--1 
+    2 12
+    1 11
+    -1 
