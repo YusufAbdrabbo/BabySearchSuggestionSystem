@@ -20,8 +20,9 @@ public class BabySearchSuggestionSystem {
     {
         // TODO code application logic here
         Scanner scanner1 = new Scanner(System.in); //Declaring object scanner1 to help later getting inputs.
+     short N = scanner1.nextShort(); //Initializing N for the number of Already Searched Words 'value to be assigned to N is taken from user'.   
      String[] aSW = new String [N+1]; //Declaring array aSW to store Already Searched Words 'Making sure the number of elements in the array (its lenth) is the same number of Already Searched Words.
-     short N = scanner1.nextShort(); //Initializing N for the number of Already Searched Words 'value to be assigned to N is taken from user'.
+     
      for(short i=0;i<=N;i++) //An iteration statement to get and assign a string value from the user to each element of aSW array."
      {
          aSW[i]=scanner1.nextLine().toLowerCase();
